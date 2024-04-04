@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Read It - Home</title>
+  <link rel="stylesheet" href="assets/home/style.css">
+  <script src="https://kit.fontawesome.com/901d7d049c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- search bar popup -->
+<div class="popup">
+  <form action="#" method="get" class="search-form-res">
+    <input type="text" placeholder="Search..." name="search" id="search">
+    <button type="submit"><i class="fas fa-search"></i></button>
+  </form>
+  <span style="color: white;font-size: 18px;" onclick="closePopup()"><i class="fa-solid fa-x"></i> <span style="text-decoration: underline;">close</span> </span>
+</div>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo"><a href="index.html" style="font-size:35px ;">Read <span style="color: blanchedalmond;font-size: 40px;">IT</span></a></div>
+    
+    <form action="#" method="get" class="search-form">
+      <input type="text" placeholder="Search..." name="search" id="search">
+      <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
+    <span class="toggle-menu">
+      <i class="fa-solid fa-bars"></i>
+    </span>
+    <div class="responsive">
+     
+      <ul class="nav-links">
+        <li class="search"><a href="#" class="search-btn"><i class="fas fa-search"></i></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Explore <i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-content">
+            <a href="botm.html">Book of the Month</a>
+            <a href="#">Explore Books</a>
+            <a href="subscriptions.html">Subscriptions</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li class="dropdown profile-dropdown">
+          <a href="#" class="dropbtn"><img src="img/default_pic.jpg" alt="Profile" width="40" style="border-radius: 100%;"> </a>
+          <div class="dropdown-content">
+            <a href="#">Profile</a>
+            <a href="#">Settings</a>
+            <a href="#">Logout</a>
+          </div>
+        </li>
+      </ul>
+     
+    </div>
+  </nav>
+
+  <!-- Banner and About Us Section -->
+  <div class="banner-about-wrapper">
+    <div class="banner box">
+      <img src="img/banner3.jpg" alt="Banner Image">
+      <div class="banner-center">
+        <h1>Welcome to <span>Read It.</span></h1>
+      </div>
+    </div>
+    <section class="about-us">
+      <div class="container">
+        <div class="banner-text">
+          <h2>Your go-to destination for all things books</h2>
+        </div>
+        <p>Read It is an online book club that offers a large selection of books across different genres. We provide various services including gift cards, review forums, live discussion groups, and much more. Our goal is to foster a community of book lovers and provide an engaging platform for literary exploration.</p>
+      </div>
+    </section>
+  </div>
+
+  <!-- Services Section -->
+  <section class="services">
+    <div class="container">
+      <h2>Our Services</h2>
+      <div class="service">
+        <h3>Book Selection</h3>
+        <p>Choose from a wide range of books across different genres.</p>
+      </div>
+      <div class="service">
+        <h3>Gift Cards</h3>
+        <p>Surprise your loved ones with our gift cards for their next reading adventure.</p>
+      </div>
+      <div class="service">
+        <h3>Discussion Forums</h3>
+        <p>Engage in lively discussions and exchange ideas with fellow book enthusiasts.</p>
+      </div>
+      <div class="service">
+        <h3>Live Discussion Groups</h3>
+        <p>Participate in live discussion groups to interact with other readers and authors.</p>
+      </div>
+      <div class="service">
+        <h3>Box of Refreshments</h3>
+        <p>Enjoy refreshments while diving into your favorite books with our box of refreshments service.</p>
+      </div>
+      <div class="service">
+        <h3>Members' Book of the Month</h3>
+        <p>Get exclusive access to our members' book of the month selection, curated by our team.</p>
+      </div>
+      <div class="service">
+        <h3>Merchandise</h3>
+        <p>Explore our collection of merchandise including bookmarks, mugs, and more.</p>
+      </div>
+      <div class="service">
+        <h3>Charity Book Donation</h3>
+        <p>Contribute to a good cause by donating books to charity through our platform.</p>
+      </div>
+      <div class="service">
+        <h3>Gift Hampers</h3>
+        <p>Send customized gift hampers filled with books and book-related goodies to your loved ones.</p>
+      </div>
+      
+      <!-- Add more service sections as needed -->
+    </div>
+  </section>
+
+  <!-- Top Books Section -->
+  <section class="top-books">
+    <div class="container">
+      <h2>Top Books</h2>
+      <div class="book-grid">
+       
+      
+        <!-- Add more book sections as needed -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="subscribe">
+        <h3>Subscribe to Our Newsletter</h3>
+        <form action="#" method="post" class="subscribe-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="contact-us">
+        <h3>Contact Us</h3>
+        <p>Email: info@readit.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="social-media">
+        <h2>Follow Us</h2>
+        
+
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/home/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Read It - BOTM</title>
+  <link rel="stylesheet" href="assets/botm/style.css">
+  <script src="https://kit.fontawesome.com/901d7d049c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<!-- search bar popup -->
+<div class="popup">
+  <form action="#" method="get" class="search-form-res">
+    <input type="text" placeholder="Search..." name="search" id="search">
+    <button type="submit"><i class="fas fa-search"></i></button>
+  </form>
+  <span style="color: white;font-size: 18px;" onclick="closePopup()"><i class="fa-solid fa-x"></i> <span style="text-decoration: underline;">close</span> </span>
+</div>
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo"><a href="index.html" style="font-size:35px ;">Read <span style="color: blanchedalmond;font-size: 40px;">IT</span></a></div>
+    
+    <form action="#" method="get" class="search-form">
+      <input type="text" placeholder="Search..." name="search" id="search">
+      <button type="submit"><i class="fas fa-search"></i></button>
+    </form>
+    <span class="toggle-menu">
+      <i class="fa-solid fa-bars"></i>
+    </span>
+    <div class="responsive">
+     
+      <ul class="nav-links">
+        <li class="search"><a href="#" class="search-btn"><i class="fas fa-search"></i></a></li>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Explore <i class="fas fa-caret-down"></i></a>
+          <div class="dropdown-content">
+            <a href="botm.html">Book of the Month</a>
+            <a href="#">Explore Books</a>
+            <a href="subscriptions.html">Subscriptions</a>
+          </div>
+        </li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li class="dropdown profile-dropdown">
+          <a href="#" class="dropbtn"><img src="img/default_pic.jpg" alt="Profile" width="40" style="border-radius: 100%;"> </a>
+          <div class="dropdown-content">
+            <a href="#">Profile</a>
+            <a href="#">Settings</a>
+            <a href="#">Logout</a>
+          </div>
+        </li>
+      </ul>
+     
+    </div>
+  </nav>
+  <!-- Cover Page -->
+  <header class="cover">
+    <div class="overlay"></div>
+    <div class="content">
+      <h1>Book of the Month</h1>
+      <p>Discover our top pick for this month</p>
+    </div>
+  </header>
+
+  <!-- Book Details -->
+  <section class="book-details">
+    <div class="container">
+      <div class="book-info">
+        <img src="img/books/book3.jpg" alt="Book Cover">
+        <div class="details">
+          <h2>Own your body</h2>
+          <p>Author: Dr. Shiv Sarin</p>
+          <p>Rating: 4.5/5</p>
+          <p>Description: Divided into six clear and easy to follow sections focusing on topics such as liver, Own Your Body bridges the gap between medical jargon and everyday life. Whether you're facing a health scare or just striving for a better lifestyle, Dr. Sarin's wisdom shines through, empowering readers to take charge of their health.
+            .</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials -->
+  <section class="testimonials">
+    <div class="container">
+      <h2>What Readers Are Saying</h2>
+      <div class="testimonial">
+        
+      </div>
+      <!-- Add more testimonials as needed -->
+    </div>
+  </section>
+<!-- Footer -->
+<footer class="footer">
+    <div class="container">
+      <div class="subscribe">
+        <h3>Subscribe to Our Newsletter</h3>
+        <form action="#" method="post" class="subscribe-form">
+          <input type="email" placeholder="Enter your email" required>
+          <button type="submit">Subscribe</button>
+        </form>
+      </div>
+      <div class="contact-us">
+        <h3>Contact Us</h3>
+        <p>Email: info@readit.com</p>
+        <p>Phone: 123-456-7890</p>
+      </div>
+      <div class="social-media">
+        <h2>Follow Us</h2>
+        
+
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+      </div>
+    </div>
+  </footer>
+
+<script src="assets/botm/script.js"></script>
+</body>
+</html>
+
